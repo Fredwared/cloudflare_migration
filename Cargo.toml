@@ -1,0 +1,12 @@
+[package]
+name = "cloudflare_migration"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aws-config = "1.5.8"
+aws-sdk-s3 = "1.55.0"
+configparser = "3.1.0"
+image = "0.25.2"
+tokio = { version = "1", features = ["full"] }
+walkdir = "2.3.2"
